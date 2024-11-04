@@ -1,0 +1,1 @@
+# Curstom firefox style
