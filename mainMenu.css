@@ -28,5 +28,16 @@
         --newtab-background-color-secondary: #64A0D7 !important; 
 	/* --newtab-search-icon: url(img/bloop.png) !important; */
     }
+
+    div.wordmark {
+        display: none !important;
+    }
+
+    div.logo {
+	height: 128px !important;
+	width: 128px !important;
+	background: url(img/arch.png) no-repeat center !important;
+	background-size: 128px !important;
+    }
 }
 

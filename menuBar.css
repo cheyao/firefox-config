@@ -4,16 +4,22 @@
  * https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization
  */
 
-@-moz-document url(chrome://browser/content/browser.xul),
-               url(chrome://browser/content/browser.xhtml) {
-    --toolbar-field-background-color: #000000 !important; /* Input bar */
-    --toolbar-bgcolor: #000000 !important; /* Toolbar */
+#nav-bar {
+    background: #2B6088 !important; /* Navigation bar */
 }
 
-#nav-bar {
-    background: #3B7299 !important; /* No hover color */
+#PersonalToolbar {
+    background: #2B6088 !important; /* Bookmark bar */
 }
 
 #navigator-toolbox {
     background: #376D99 !important; /* Top bar color on focus */ 
+}
+
+#urlbar-background {
+    background: #3B7299 !important; /* Input bar color */
+}
+
+.tab-background:is([selected], [multiselected]) {
+    background: #356f9e !important; /* Color of the selected tab */
 }
