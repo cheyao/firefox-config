@@ -1,3 +1,9 @@
+/*
+ * This file is distrubuted under the zlib license
+ *
+ * https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization
+ */
+
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
     .click-target-container *, .top-sites-list * {
         color: #fff !important ;
@@ -11,9 +17,7 @@
         position: fixed;
         top: 0;
         left: 0;
-	/*
         background: #f9a no-repeat url(img/gura.png) center;
-	*/
         background-size: cover;
         width: 100vw;
         height: 100vh;
@@ -22,6 +26,7 @@
     body {
         /* Search bar color */
         --newtab-background-color-secondary: #64A0D7 !important; 
+	/* --newtab-search-icon: url(img/bloop.png) !important; */
     }
 }
 

@@ -1,0 +1,19 @@
+/*
+ * This file is distrubuted under the zlib license
+ *
+ * https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization
+ */
+
+@-moz-document url(chrome://browser/content/browser.xul),
+               url(chrome://browser/content/browser.xhtml) {
+    --toolbar-field-background-color: #000000 !important; /* Input bar */
+    --toolbar-bgcolor: #000000 !important; /* Toolbar */
+}
+
+#nav-bar {
+    background: #3B7299 !important; /* No hover color */
+}
+
+#navigator-toolbox {
+    background: #376D99 !important; /* Top bar color on focus */ 
+}
