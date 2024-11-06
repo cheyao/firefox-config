@@ -9,7 +9,8 @@ A custom firefox theme written compleatly in css. No plugins needed.
 1. Open `about:support` and copy your profile directory
 2. cd to there in your terminal
 3. Run `git clone https://github.com/cheyao/firefox-config chrome`
-4. Restart firefox
+4. Go to `about:config`  and set `toolkit.legacyUserProfileCustomizations.stylesheets` to true!
+5. Restart firefox
 
 ## Lesons learnt
 1. Never mess with firefox without a plugin, this is really under-informated
